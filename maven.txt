@@ -1,0 +1,23 @@
+use below link at the time of cloning(maven1)
+https://github.com/SrikanthPB/mavenwebhook
+
+forking .....i am owner then u also become owner after forking 
+
+mvn compile...download dependency, prerequisite
+
+All the downloaded dependencies will be inside the .m2 folder
+cd /root/.m2/repository (maven4)
+
+maven5...inside repository every dependency for maven is installed suppose in case it deleted then 
+u can download (mvn compile)
+
+mvn clean....it will delete target folder (it clean privious dependency)
+so if we want dowmload again then we use below command
+mvn compile.............it compile java file(will get target folder)
+
+go to .m2 folder use rm -rf repository
+then go to mavenwebhook and use install mvn
+
+now go to vi pom.xml
+change jar to war
+then use "mvn package"
