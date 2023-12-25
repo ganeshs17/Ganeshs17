@@ -1,0 +1,39 @@
+create ec2 in redhat with key pair(putty)
+open putty add key pair
+copy ipv public ip adreess..in putty open session add there(ec2-user@ip address)
+add name and save then save 
+now ec2 available in putty
+1.sudo su  -it give you administrative privilage
+2.ls -a  -for hidden folder
+3.la     -for normal file
+4.cd ..  -one directory back
+5.cd folder  -enter in to the folder
+once we create the folder then type vi Hello then enter(hello is a file name)
+then type i in keyboard...now we are able to write in the file once done then press ecs then :wq
+6.if you want to know hostname then type hostname then enter
+7.yum install git -y
+8.git init
+9.git status
+10.after creating file.......add git hello.java(hello.java example)
+11.for remove file......rm hello.java
+12.git config --global --edit.............by using this command we can change athor and email
+after enter command press i then do changes  then enter
+after we cant see the change so we need to put  another command
+13.git commit --amend --reset-author after enter this  command preass esc then :wq  then git log now you can see author and 
+email chaanged
+
+after this inside cd .git
+14.yum install tree -y
+15.git
+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
+
+I need to add destination to local repo
+see 11/03 record from 0:55 to next
+
+password for gitpractice
+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
+
+see 1:10 to 1:25 again tommorow
+
+16.git remote remove origin
+17.git remote remove origin
