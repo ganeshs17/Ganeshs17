@@ -1,0 +1,13 @@
+git commands
+
+1."git add --all" or "git add name.txt"   if we want to put file from modified state to staged 
+
+2."git restore --staged name.txt"    put file from staged state to modified state
+
+3."git restore name.txt"     if we use this cmd then all changes that we made in that file restore(in modified state)
+
+4."git commit -m "commit AWS.txt and image from local machine" "   use this command aftr  git add for commit your changes from local machine
+
+5."git push origin "repo name" "  push your changes from commit to repo
+
+6."git add ." it will add all the file
